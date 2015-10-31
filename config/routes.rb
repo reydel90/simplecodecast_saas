@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :contacts
+  resources :contacts #Add contact routes
   get '/about' => 'pages#about'
   
   root 'pages#home'
